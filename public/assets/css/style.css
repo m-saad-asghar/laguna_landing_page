@@ -222,7 +222,7 @@ h6 {
 }
 
  .middle_font {
-       font-size: 55px;
+       font-size: 54px;
     color: #ffffff;
     font-weight: bold;
     margin-bottom: 10px;
@@ -230,7 +230,7 @@ h6 {
 
     .main-slider-one__content h2 {
     color: var(--thm-white);
-    font-size: 60px;
+    font-size: 70px;
     line-height: 1em;
     font-weight: 700;
     text-transform: uppercase;
@@ -6934,6 +6934,20 @@ Project Four Css
 		margin-bottom: 20px;
 	}
 
+    .main-slider-one__content h3 {
+    color: var(--thm-white);
+    font-size: 37px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    margin-bottom: 10px;
+    opacity: 0;
+    transition: all 1000ms ease;
+    transform: translateY(80px);
+    z-index: 5;
+}
+
 	.blog-details__content-form .title-box h2 {
 		font-size: 30px;
 		line-height: 40px;
@@ -7052,6 +7066,10 @@ Project Four Css
 		margin: 0 auto 15px;
 		float: none;
 	}
+
+   .subtitle_styling {
+    font-size: 37px !important;
+   }
 
 	.cta-one__content h2 {
 		font-size: 25px;
@@ -7355,7 +7373,6 @@ Project Four Css
 
 
 
-
 }
 
 
@@ -7460,6 +7477,10 @@ Project Four Css
 
 
 @media (max-width: 767px) {
+
+    .subtitle_styling {
+    font-size: 25px !important;
+   }
 
 	.menu-area .navbar-wrap {
 		display: none !important;
@@ -7647,7 +7668,7 @@ Project Four Css
 	}
 
     .middle_font {
-        font-size: 40px !important;
+        font-size: 70px !important;
     }
 
 
@@ -7702,15 +7723,15 @@ Project Four Css
 		margin-top: 20px;
 	}
 
-	.main-slider-one__content h3 {
+	/* .main-slider-one__content h3 {
 		font-size: 25px;
 		letter-spacing: -0.00em;
-	}
+	} */
 
-	.main-slider-one__content h2 {
+	/* .main-slider-one__content h2 {
 		font-size: 42px;
 		letter-spacing: 0.00em;
-	}
+	} */
 
 	.main-slider-one__single {
 		padding: 200px 0px 80px;
@@ -7862,15 +7883,33 @@ Project Four Css
 }
 }
 
-@media only screen and (max-width: 481px) {
-    .middle_font {
+@media only screen and (max-width: 547px) {
+   .main-slider-one__content h2 {
+    font-size: 50px;
+   }
+   .middle_font {
     font-size: 45px;
+}
+.main-slider-one__content h3 {
+    font-size: 30px;
 }
 }
 
-@media only screen and (max-width: 405px) {
+/* @media only screen and (max-width: 481px) {
     .middle_font {
+    font-size: 45px;
+}
+} */
+
+@media only screen and (max-width: 405px) {
+     .main-slider-one__content h2 {
     font-size: 40px;
+   }
+   .middle_font {
+    font-size: 35px;
+}
+.main-slider-one__content h3 {
+    font-size: 25px;
 }
 }
 

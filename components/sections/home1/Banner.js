@@ -79,8 +79,8 @@ export default function Banner() {
         </div>
 
         <div style={{paddingTop: 50}}>
-          <p style={{fontSize: 20, color: "#ffffff"}} className='heading_middle'>1<sup style={{fontSize: 12}}>ST</sup> TOWER SOLD!</p>
-        <h3 style={{fontSize: 20}} className='heading_middle'>2<sup style={{fontSize: 12}}>ND</sup> TOWER NOW SELLING!</h3>
+          <p style={{color: "#ffffff"}} className='heading_middle subtitle_styling'>1<sup style={{fontSize: 12}}>ST</sup> TOWER SOLD!</p>
+        <h3 className='heading_middle subtitle_styling'>2<sup style={{fontSize: 12}}>ND</sup> TOWER NOW SELLING!</h3>
         </div>
 
         <div className="btn-box">
