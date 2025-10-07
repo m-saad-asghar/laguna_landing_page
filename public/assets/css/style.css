@@ -228,6 +228,19 @@ h6 {
     margin-bottom: 10px;
     }
 
+    .main-slider-one__content h2 {
+    color: var(--thm-white);
+    font-size: 60px;
+    line-height: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+    opacity: 0;
+    transition: all 1500ms ease;
+    transform: translateY(80px);
+    z-index: 5;
+}
+
 /*== Swiper Nav Style1 Css ======*/
 .swiper-nav-style1 {
     position: absolute;

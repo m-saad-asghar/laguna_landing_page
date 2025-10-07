@@ -187,7 +187,7 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
       textAlign: "left",
       display: "flex",
       flexDirection: "column",
-      marginBottom: "15px", // spacing when stacked
+    //   marginBottom: "15px",
     }}
   >
     <h1
