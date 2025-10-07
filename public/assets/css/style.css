@@ -221,6 +221,13 @@ h6 {
     font-size: 1rem;
 }
 
+ .middle_font {
+       font-size: 55px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
 /*== Swiper Nav Style1 Css ======*/
 .swiper-nav-style1 {
     position: absolute;
@@ -7146,13 +7153,6 @@ Project Four Css
 		width: 100%;
 		margin: 0 auto 30px;
 	}
-
-    .middle_font {
-       font-size: 55px;
-    color: #ffffff;
-    font-weight: bold;
-    margin-bottom: 10px;
-    }
 
 	.shop-page__top-right {
 		flex-direction: column;
