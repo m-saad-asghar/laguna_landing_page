@@ -131,7 +131,7 @@ export default function Banner() {
 
         {/* <BitrixForm/> */}
 
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <div className="mb-3">
         <input
           type="text"
@@ -202,7 +202,7 @@ export default function Banner() {
       >
         Send Message
       </button>
-    </form> */}
+    </form>
       </div>
     </div>
   </div>
@@ -270,7 +270,7 @@ export default function Banner() {
 
         {/* <BitrixForm/> */}
 
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <div className="mb-3">
         <input
           type="text"
@@ -341,7 +341,7 @@ export default function Banner() {
       >
         Send Message
       </button>
-    </form> */}
+    </form>
       </div>
     </div>
   </div>
@@ -409,7 +409,7 @@ export default function Banner() {
 
         {/* <BitrixForm/> */}
 
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <div className="mb-3">
         <input
           type="text"
@@ -480,7 +480,7 @@ export default function Banner() {
       >
         Send Message
       </button>
-    </form> */}
+    </form>
       </div>
     </div>
   </div>
@@ -548,7 +548,7 @@ export default function Banner() {
 
         {/* <BitrixForm/> */}
 
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <div className="mb-3">
         <input
           type="text"
@@ -619,7 +619,7 @@ export default function Banner() {
       >
         Send Message
       </button>
-    </form> */}
+    </form>
       </div>
     </div>
   </div>
@@ -687,7 +687,7 @@ export default function Banner() {
 
         {/* <BitrixForm/> */}
 
-      {/* <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
       <div className="mb-3">
         <input
           type="text"
@@ -758,7 +758,7 @@ export default function Banner() {
       >
         Send Message
       </button>
-    </form> */}
+    </form>
       </div>
     </div>
   </div>
