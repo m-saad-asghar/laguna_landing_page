@@ -7147,6 +7147,13 @@ Project Four Css
 		margin: 0 auto 30px;
 	}
 
+    .middle_font {
+       font-size: 55px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+
 	.shop-page__top-right {
 		flex-direction: column;
 		justify-content: center;
@@ -7842,6 +7849,18 @@ Project Four Css
 }
 }
 
+@media only screen and (max-width: 481px) {
+    .middle_font {
+    font-size: 45px;
+}
+}
+
+@media only screen and (max-width: 405px) {
+    .middle_font {
+    font-size: 40px;
+}
+}
+
 /* @media only screen and (max-width: 666px) {
     .gold_strip_title {
     font-size: 1.2rem;
@@ -7859,6 +7878,12 @@ Project Four Css
 
 .gold_strip_sub_title {
     font-size: 0.8rem;
+}
+}
+
+@media only screen and (max-width: 366px) {
+    .middle_font {
+    font-size: 35px;
 }
 }
 

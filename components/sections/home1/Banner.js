@@ -74,7 +74,7 @@ export default function Banner() {
       <div className="main-slider-one__content">
         <div>
           <h2 className='heading_middle' style={{marginBottom: 10}}>World's First</h2>
-        <p className='heading_middle middle_font middle_para'> AI-INTEGRATED</p>
+        <p className='heading_middle middle_font'> AI-INTEGRATED</p>
         <h3 className='heading_middle' style={{marginBottom: 10}}>Residential Tower</h3>
         </div>
 
