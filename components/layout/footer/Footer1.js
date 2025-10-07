@@ -27,7 +27,7 @@ export default function Footer1() {
 </Link>
                                     </div>
 
-                                    <div className="footer-widget__about-inner">
+                                    <div className="footer-widget__about-inner footer_spacing">
                                         <div className="text-box">
                                             <p>Office No. 2101, 21st Floor, Boulevard Plaza Tower 1<br/>
                                                  Downtown, Dubai, UAE</p>
@@ -72,7 +72,7 @@ export default function Footer1() {
                             </div>
 
                               <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
-                                <div className="single-footer-widget footer-widget__links">
+                                <div className="single-footer-widget footer-widget__links footer_spacing">
                                     <div className="title">
                                         <h2>About Laguna</h2>
                                     </div>

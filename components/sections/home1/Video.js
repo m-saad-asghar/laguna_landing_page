@@ -11,7 +11,7 @@ export default function Video() {
             {/*Start Video One */}
             <section className="video-one">
                 <div className="video-one__pattern"><img src="assets/img/pattern/video-v1-pattern.png" alt=""/></div>
-                <div className="auto-container" style={{paddingBottom: 120}}>
+                <div className="auto-container auto_container_styling">
 
                        <video
   width="100%"

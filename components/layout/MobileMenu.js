@@ -102,7 +102,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                     <div className="contact-info">
                         <div className="icon-box"><span className="icon-call"></span>
                         </div>
-                        <p><Link href="tel:97145776496">+971 (0) 45776496</Link></p>
+                        <p><Link href="tel:97145776496">+971 (0)4 577 6496</Link></p>
                     </div>
                     <div className="social-links">
                         <ul className="clearfix list-wrap">

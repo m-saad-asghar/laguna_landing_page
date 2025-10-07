@@ -6,7 +6,7 @@ export default function About() {
     return (
         <>
             {/*Start About One */}
-            <section className="about-one" id="about-us" style={{padding: "120px 0px 0px"}}>
+            <section className="about-one about_spacing" id="about-us">
                 <div className="shape1 float-bob-y"><img src="assets/img/shape/about-v1-shape1.png" alt=""/></div>
                 <div className="container">
                     <div className="row">
@@ -54,7 +54,7 @@ on Innovation, Technology, Community, and Sustainability creates elevated living
 experiences, designed inspired by you.</p>
                                 </div>
 
-                                 <div className="sec-title" style={{marginTop: 15}}>
+                                 <div className="sec-title everyday_gateway">
                                     <h2>Your Everyday Gateway</h2>
                                 </div>
 
@@ -155,7 +155,7 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
                                <div className="about-one__content-bottom">
                                     <div className="about-one__content-bottom-author-box" style={{display: "flex", justifyContent: "center"}}>
                                         <div className="btn-box" style={{width: "100%", display: "flex", justifyContent: "center"}}>
-                                            <Link className="thm-btn" href="#home" style={{width: 300, display: "flex", justifyContent: "center"}}>
+                                            <Link className="thm-btn about_contact" href="#home" style={{width: 300, display: "flex", justifyContent: "center"}}>
                                                 <span className="txt" style={{fontSize: 18}}>Contact Us</span>
                                             </Link>
                                         </div>
@@ -165,7 +165,8 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
                         </div>
                         {/*End About One Content */}
 
-                      <div
+                      <div>
+                        <div
   style={{
     display: "flex",
     justifyContent: "space-between",
@@ -173,11 +174,10 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
     backgroundColor: "#9f8151",
     padding: "25px 30px",
     borderRadius: "12px",
-    marginTop: "7%",
     boxShadow: "0 6px 15px rgba(0, 0, 0, 0.2)",
     fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
   }}
-  className="thm-btn"
+  className="thm-btn gold_strip"
 >
   <div style={{ flex: 1, textAlign: "left", display: "flex", flexDirection: "column" }}>
     <h1 style={{ color: "#fff", margin: 0, fontSize: "2.2rem", fontWeight: 700 }} className="txt">
@@ -198,12 +198,13 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
   </div>
 </div>
 
+                      </div>
 
 
                     </div>
                 </div>
                 
-               <div style={{marginTop: 100}}>
+               <div className="video_styling">
                  <Video />
                </div>
             </section>

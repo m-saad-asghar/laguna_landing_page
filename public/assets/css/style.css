@@ -6648,7 +6648,7 @@ Project Four Css
 	}
 
 	.footer-widget__about {
-		margin-bottom: 70px;
+		margin-bottom: 40px;
 	}
 
 	.about-two__img {
@@ -7683,7 +7683,7 @@ Project Four Css
 	}
 
 	.main-slider-one__single {
-		padding: 268px 0px 170px;
+		padding: 200px 0px 80px;
 	}
 
 	.main-slider-two__social-links {
@@ -7720,4 +7720,72 @@ Project Four Css
 	.main-slider-two__single {
 		padding: 186px 0px 220px;
 	}
+}
+
+.about_spacing {
+    padding: 120px 0 0;
+}
+
+.everyday_gateway {
+    margin-top: 15px !important;
+}
+
+.gold_strip {
+    margin-top: 7%;
+}
+
+.video_styling {
+    margin-top: 100px;
+}
+
+.auto_container_styling {
+    padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 767px) {
+   .about_spacing {
+    padding: 75px 0 0;
+}
+.about-one__content {
+    margin-top: 60px;
+}
+.everyday_gateway {
+    margin-top: 40px !important;
+}
+.about_contact {
+    margin-bottom: 35px;
+}
+.gold_strip {
+    margin-top: 4%;
+}
+.video_styling {
+    margin-top: 70px;
+}
+.video-one {
+        padding: 70px 0 0;
+}
+.auto_container_styling {
+    padding-bottom: 70px;
+}
+.feauture-one {
+    padding: 55px 0px 70px;
+}
+.sec-title {
+    padding-bottom: 45px;
+}
+.feature_btn {
+    margin-top: 35px;
+}
+.service-one {
+    padding: 70px 0 70px;;
+}
+.team-two {
+    padding: 60px 0 40px;
+}
+.footer-main {
+    padding: 60px 0 60px;
+}
+.footer_spacing {
+    margin-top: 50px;
+}
 }
