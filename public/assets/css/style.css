@@ -7722,6 +7722,14 @@ Project Four Css
 	}
 }
 
+.gold_strip_title {
+    font-size: 2.2rem;
+}
+
+.gold_strip_sub_title {
+    font-size: 1rem;
+}
+
 .about_spacing {
     padding: 120px 0 0;
 }
@@ -7740,6 +7748,26 @@ Project Four Css
 
 .auto_container_styling {
     padding-bottom: 120px;
+}
+
+@media only screen and (max-width: 930px) {
+    .gold_strip_title {
+    font-size: 1.8rem;
+}
+
+.gold_strip_sub_title {
+    font-size: 0.8rem;
+}
+}
+
+@media only screen and (max-width: 779px) {
+    .gold_strip_title {
+    font-size: 1.5rem;
+}
+
+.gold_strip_sub_title {
+    font-size: 0.8rem;
+}
 }
 
 @media only screen and (max-width: 767px) {
@@ -7787,5 +7815,15 @@ Project Four Css
 }
 .footer_spacing {
     margin-top: 50px;
+}
+}
+
+@media only screen and (max-width: 666px) {
+    .gold_strip_title {
+    font-size: 1.2rem;
+}
+
+.gold_strip_sub_title {
+    font-size: 0.8rem;
 }
 }

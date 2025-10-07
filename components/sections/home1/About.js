@@ -180,19 +180,19 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
   className="thm-btn gold_strip"
 >
   <div style={{ flex: 1, textAlign: "left", display: "flex", flexDirection: "column" }}>
-    <h1 style={{ color: "#fff", margin: 0, fontSize: "2.2rem", fontWeight: 700 }} className="txt">
+    <h1 style={{ color: "#fff", margin: 0, fontWeight: 700 }} className="txt gold_strip_title">
       5% Down Payment
     </h1>
-    <p style={{ color: "#fff", margin: 0, fontSize: "1rem", opacity: 0.9 }} className="txt">
+    <p style={{ color: "#fff", margin: 0, opacity: 0.9 }} className="txt gold_strip_sub_title">
       Flexible and easy
     </p>
   </div>
   
   <div style={{ flex: 1, textAlign: "right", display: "flex", flexDirection: "column" }}>
-    <h1 style={{ color: "#fff", margin: 0, fontSize: "2.2rem", fontWeight: 700 }} className="txt">
+    <h1 style={{ color: "#fff", margin: 0, fontWeight: 700 }} className="txt gold_strip_title">
       6% Guaranteed Value
     </h1>
-    <p style={{ color: "#fff", margin: 0, fontSize: "1rem", opacity: 0.9 }} className="txt">
+    <p style={{ color: "#fff", margin: 0, opacity: 0.9 }} className="txt gold_strip_sub_title">
       Secure investment
     </p>
   </div>
