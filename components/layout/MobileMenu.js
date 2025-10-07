@@ -104,7 +104,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                         </div>
                         <p><Link href="tel:97145776496">+971 (0)4 577 6496</Link></p>
                     </div>
-                    <div className="social-links">
+                    {/* <div className="social-links">
                         <ul className="clearfix list-wrap">
                             <li><Link href="https://www.facebook.com/shiroestate"><i className="fab fa-facebook-f"></i></Link></li>
                             <li><Link href="https://x.com/shiroestate"><i className="fab fa-twitter"></i></Link></li>
@@ -113,7 +113,7 @@ export default function MobileMenu({ isSidebar, handleMobileMenu, handleSidebar 
                             <li><Link href="https://www.snapchat.com/@shiro.estate"><i className="fab fa-snapchat"></i></Link></li>
                             <li><Link href="https://www.tiktok.com/@shiroestate"><i className="fab fa-tiktok"></i></Link></li>
                         </ul>
-                    </div>
+                    </div> */}
                 </nav>
             </div>
             <div className="menu-backdrop" onClick={handleMobileMenu}></div>
