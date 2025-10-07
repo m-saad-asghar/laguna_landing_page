@@ -72,12 +72,15 @@ export default function Banner() {
   <div className="row align-items-center">
     <div className="col-lg-6 col-md-12">
       <div className="main-slider-one__content">
-        <h3>"World's First AI-Integrated</h3>
-        <h2>Residential Tower"</h2>
+        <div>
+          <h2 className='heading_middle' style={{marginBottom: 10}}>World's First</h2>
+        <p style={{fontSize: 40, color: "#ffffff", fontWeight: "bold", marginBottom: 10}} className='heading_middle middle_font'> AI-INTEGRATED</p>
+        <h3 className='heading_middle' style={{marginBottom: 10}}>Residential Tower</h3>
+        </div>
 
         <div style={{paddingTop: 50}}>
-          <h3 style={{fontSize: 20}}>FIRST TOWER SOLD!</h3>
-        <h3 style={{fontSize: 20}}>2ND TOWER NOW SELLING!</h3>
+          <p style={{fontSize: 20, color: "#ffffff"}} className='heading_middle'>1<sup style={{fontSize: 12}}>ST</sup> TOWER SOLD!</p>
+        <h3 style={{fontSize: 20}} className='heading_middle'>2<sup style={{fontSize: 12}}>ND</sup> TOWER NOW SELLING!</h3>
         </div>
 
         <div className="btn-box">

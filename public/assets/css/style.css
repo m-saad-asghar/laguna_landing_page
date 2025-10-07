@@ -7519,7 +7519,7 @@ Project Four Css
 --------------------------------------------------------------*/
 @media only screen and (min-width: 1200px) and (max-width: 1660px) {
 	.main-slider-one .container {
-		padding-left: 200px;
+		/* padding-left: 200px; */
 	}
 
 
@@ -7540,7 +7540,7 @@ Project Four Css
 		padding: 337px 0px 53px;
 	}
 
-	.main-slider-one__content h2 {
+	/* .main-slider-one__content h2 {
 		font-size: 85px;
 		letter-spacing: -0.01em;
 	}
@@ -7548,7 +7548,7 @@ Project Four Css
 	.main-slider-one__content h3 {
 		font-size: 50px;
 		letter-spacing: -0.0em;
-	}
+	} */
 
 	#main-slider-one__pagination {
 		top: 49%;
@@ -7556,7 +7556,7 @@ Project Four Css
 	}
 
 	.main-slider-one .container {
-		padding-left: 150px;
+		/* padding-left: 150px; */
 	}
 
 	.main-slider-two__social-links {
@@ -7607,7 +7607,7 @@ Project Four Css
 	}
 
 	.main-slider-one .container {
-		padding-left: 140px;
+		/* padding-left: 140px; */
 	}
 
 	.main-slider-one__single {
@@ -7626,6 +7626,9 @@ Project Four Css
 		display: none;
 	}
 
+    .middle_font {
+        font-size: 40px !important;
+    }
 
 
 
@@ -7643,6 +7646,13 @@ Project Four Css
 
 
 
+
+}
+
+@media only screen and (max-width: 991px) {
+.heading_middle {
+    text-align: center;
+}
 }
 
 
@@ -7673,7 +7683,7 @@ Project Four Css
 	}
 
 	.main-slider-one__content h3 {
-		font-size: 30px;
+		font-size: 25px;
 		letter-spacing: -0.00em;
 	}
 
