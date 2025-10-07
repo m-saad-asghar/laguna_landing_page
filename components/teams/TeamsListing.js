@@ -111,7 +111,7 @@ export default function TeamsListing() {
           }}
         />
 
-       <div className="about-one__content-bottom">
+       {/* <div className="about-one__content-bottom">
                                     <div className="about-one__content-bottom-author-box" style={{display: "flex", justifyContent: "center"}}>
                                         <div className="btn-box" style={{width: "100%", display: "flex", justifyContent: "center"}}>
                                             <Link className="thm-btn" href="#home" style={{width: 300, display: "flex", justifyContent: "center"}}>
@@ -119,7 +119,7 @@ export default function TeamsListing() {
                                             </Link>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
       </section>
     </Layout>

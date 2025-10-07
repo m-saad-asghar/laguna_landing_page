@@ -44,10 +44,7 @@ export default function About() {
                         <div className="col-xl-7 wow animated fadeInLeft" data-wow-delay="0.1s">
                             <div className="about-one__content">
                                 <div className="sec-title">
-                                    <div className="sub-title">
-                                        <h5>About Us</h5>
-                                    </div>
-                                    <h2>Our Story</h2>
+                                    <h2>Laguna By One Development</h2>
                                 </div>
 
                                 <div className="text-box">
@@ -63,7 +60,7 @@ experiences, designed inspired by you.</p>
 
                                 <div className="text-box">
                                     <p>Laguna Residence offers more than just a home! it’s a serene escape in the middle of
-Dubai’s vibrant energy.</p>
+Dubai’s vibrant energy.</p><br/>
 <p>
     With two iconic towers and a stunning lagoon centerpiece, this project blends nature with
 modern living, marking the first landmark on Sheikh Mohamed Bin Zayed Road. Featuring
@@ -167,8 +164,45 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
                             </div>
                         </div>
                         {/*End About One Content */}
+
+                      <div
+  style={{
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    backgroundColor: "#9f8151",
+    padding: "25px 30px",
+    borderRadius: "12px",
+    marginTop: "7%",
+    boxShadow: "0 6px 15px rgba(0, 0, 0, 0.2)",
+    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+  }}
+  className="thm-btn"
+>
+  <div style={{ flex: 1, textAlign: "left", display: "flex", flexDirection: "column" }}>
+    <h1 style={{ color: "#fff", margin: 0, fontSize: "2.2rem", fontWeight: 700 }} className="txt">
+      5% Down Payment
+    </h1>
+    <p style={{ color: "#fff", margin: 0, fontSize: "1rem", opacity: 0.9 }} className="txt">
+      Flexible and easy
+    </p>
+  </div>
+  
+  <div style={{ flex: 1, textAlign: "right", display: "flex", flexDirection: "column" }}>
+    <h1 style={{ color: "#fff", margin: 0, fontSize: "2.2rem", fontWeight: 700 }} className="txt">
+      6% Guaranteed Value
+    </h1>
+    <p style={{ color: "#fff", margin: 0, fontSize: "1rem", opacity: 0.9 }} className="txt">
+      Secure investment
+    </p>
+  </div>
+</div>
+
+
+
                     </div>
                 </div>
+                
                <div style={{marginTop: 100}}>
                  <Video />
                </div>

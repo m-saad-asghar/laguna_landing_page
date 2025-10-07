@@ -20,10 +20,10 @@
     position: relative;
     display: block;
     margin-right: -10px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
-.about-one__img::before {
+/* .about-one__img::before {
     position: absolute;
     top: 0;
     left: 0;
@@ -31,7 +31,7 @@
     width: 10px;
     background: var(--thm-primary);
     content: "";
-}
+} */
 
 .about-one__img .inner {
     position: relative;

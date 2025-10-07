@@ -7,7 +7,7 @@ export default function Footer1() {
         <>
             {/*Start Footer One */}
             <footer className="footer-one">
-                <div className="shape1"><img className="float-bob-y" src="assets/img/shape/footer-v1-shape1.png" alt=""/></div>
+                {/* <div className="shape1"><img className="float-bob-y" src="assets/img/shape/footer-v1-shape1.png" alt=""/></div> */}
                 {/*Start Footer Main */}
                 <div className="footer-main">
                     <div className="container">
@@ -29,8 +29,8 @@ export default function Footer1() {
 
                                     <div className="footer-widget__about-inner">
                                         <div className="text-box">
-                                            <p>Boulevard Plaza Tower 1 - Downtown<br/>
-                                                 Office No. 2101 - 21st Floor - Dubai</p>
+                                            <p>Office No. 2101, 21st Floor, Boulevard Plaza Tower 1<br/>
+                                                 Downtown, Dubai, UAE</p>
                                         </div>
                                         <div className="number-box">
                                             <Link href="tel:97145776496">+971 (0)4 577 6496</Link>

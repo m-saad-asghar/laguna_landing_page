@@ -22,6 +22,23 @@ export default function Pricing() {
                 </div>
                 <div className="row">
                     {/*Start Service One Single */}
+
+                       <div className="col-xl-6 col-lg-6 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div className="service-one__single">
+                            <div className="shape1"><img src="assets/img/shape/service-v1-shape1.png" alt=""/></div>
+                            <div className="service-one__single-inner">
+                                <div className="icon-box" style={{top: 0}}>
+                                     <span>
+                                        <GiBrain size={40} />
+                                    </span>
+                                </div>
+                                <div className="content-box">
+                                    <h2><Link href="javascript:void(0);">First AI-Integration Project</Link></h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="col-xl-6 col-lg-6 wow animated fadeInUp" data-wow-delay="0.1s">
                         <div className="service-one__single">
                             <div className="shape1"><img src="assets/img/shape/service-v1-shape1.png" alt=""/></div>
@@ -65,22 +82,6 @@ export default function Pricing() {
                                 </div>
                                 <div className="content-box">
                                     <h2><Link href="javascript:void(0);">Dynamic Dubai Skyline</Link></h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                      <div className="col-xl-6 col-lg-6 wow animated fadeInUp" data-wow-delay="0.1s">
-                        <div className="service-one__single">
-                            <div className="shape1"><img src="assets/img/shape/service-v1-shape1.png" alt=""/></div>
-                            <div className="service-one__single-inner">
-                                <div className="icon-box" style={{top: 0}}>
-                                     <span>
-                                        <GiBrain size={40} />
-                                    </span>
-                                </div>
-                                <div className="content-box">
-                                    <h2><Link href="javascript:void(0);">First AI Integration</Link></h2>
                                 </div>
                             </div>
                         </div>

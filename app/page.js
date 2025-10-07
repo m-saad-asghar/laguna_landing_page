@@ -15,6 +15,7 @@ import Testimonial from "@/components/sections/home1/Testimonial"
 import TeamsListing from "@/components/teams/TeamsListing"
 import Link from "next/link"
 import Footer1 from "@/components/layout/footer/Footer1"
+import ContactForm from "@/components/ContactForm"
 export default function Home() {
 
     return (
@@ -25,6 +26,7 @@ export default function Home() {
                 <Features />
                 <Services />
                 <TeamsListing/>
+                {/* <ContactForm/> */}
                 <Footer1/>
                 {/* <Projects /> */}
                 {/* <Team /> */}
