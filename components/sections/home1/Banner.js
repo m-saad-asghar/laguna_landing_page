@@ -69,12 +69,12 @@ export default function Banner() {
             <div className="container">
                 <div className="main-slider-one__single">
                    <div className="container">
-  <div className="row align-items-center">
+  <div className="row">
     <div className="col-lg-6 col-md-12">
       <div className="main-slider-one__content">
         <div>
           <h2 className='heading_middle' style={{marginBottom: 10}}>World's First</h2>
-        <p style={{fontSize: 40, color: "#ffffff", fontWeight: "bold", marginBottom: 10}} className='heading_middle middle_font'> AI-INTEGRATED</p>
+        <p style={{fontSize: 55, color: "#ffffff", fontWeight: "bold", marginBottom: 10}} className='heading_middle middle_font'> AI-INTEGRATED</p>
         <h3 className='heading_middle' style={{marginBottom: 10}}>Residential Tower</h3>
         </div>
 
