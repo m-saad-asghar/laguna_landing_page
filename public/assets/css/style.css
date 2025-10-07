@@ -515,6 +515,10 @@ h6 {
     transition: all 900ms ease;
 }
 
+  .subtitle_styling {
+    font-size: 37px !important;
+   }
+
 .owl-carousel.owl-dot-style1 .owl-dots .owl-dot.active::before {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -7066,10 +7070,6 @@ Project Four Css
 		margin: 0 auto 15px;
 		float: none;
 	}
-
-   .subtitle_styling {
-    font-size: 37px !important;
-   }
 
 	.cta-one__content h2 {
 		font-size: 25px;
