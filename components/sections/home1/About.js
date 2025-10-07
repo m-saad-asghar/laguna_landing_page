@@ -166,7 +166,8 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
                         {/*End About One Content */}
 
                       <div>
-                        <div
+                       <div
+  className="thm-btn gold_strip"
   style={{
     display: "flex",
     justifyContent: "space-between",
@@ -176,27 +177,57 @@ world class amenities and cutting-edge AI integration for an effortless lifestyl
     borderRadius: "12px",
     boxShadow: "0 6px 15px rgba(0, 0, 0, 0.2)",
     fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
+    flexWrap: "wrap", // allows stacking on small screens
   }}
-  className="thm-btn gold_strip"
 >
-  <div style={{ flex: 1, textAlign: "left", display: "flex", flexDirection: "column" }}>
-    <h1 style={{ color: "#fff", margin: 0, fontWeight: 700 }} className="txt gold_strip_title">
+  <div
+    className="gold_strip_col"
+    style={{
+      flex: "1 1 300px", // responsive behavior
+      textAlign: "left",
+      display: "flex",
+      flexDirection: "column",
+      marginBottom: "15px", // spacing when stacked
+    }}
+  >
+    <h1
+      style={{ color: "#fff", margin: 0, fontWeight: 700 }}
+      className="txt gold_strip_title"
+    >
       5% Down Payment
     </h1>
-    <p style={{ color: "#fff", margin: 0, opacity: 0.9 }} className="txt gold_strip_sub_title">
+    <p
+      style={{ color: "#fff", margin: 0, opacity: 0.9 }}
+      className="txt gold_strip_sub_title"
+    >
       Flexible and easy
     </p>
   </div>
-  
-  <div style={{ flex: 1, textAlign: "right", display: "flex", flexDirection: "column" }}>
-    <h1 style={{ color: "#fff", margin: 0, fontWeight: 700 }} className="txt gold_strip_title">
+
+  <div
+    className="gold_strip_col"
+    style={{
+      flex: "1 1 300px",
+      textAlign: "right",
+      display: "flex",
+      flexDirection: "column",
+    }}
+  >
+    <h1
+      style={{ color: "#fff", margin: 0, fontWeight: 700 }}
+      className="txt gold_strip_title"
+    >
       6% Guaranteed Value
     </h1>
-    <p style={{ color: "#fff", margin: 0, opacity: 0.9 }} className="txt gold_strip_sub_title">
+    <p
+      style={{ color: "#fff", margin: 0, opacity: 0.9 }}
+      className="txt gold_strip_sub_title"
+    >
       Secure investment
     </p>
   </div>
 </div>
+
 
                       </div>
 
