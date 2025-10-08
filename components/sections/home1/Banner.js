@@ -39,6 +39,7 @@ const swiperOptions = {
 
 export default function Banner() {
     const [isOpen, setOpen] = useState(false)
+    const [disableBtn, setDisableBtn] = useState(false)
     const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -83,6 +84,7 @@ export default function Banner() {
   };
 
   try {
+    setDisableBtn(true);
     const response = await fetch(
       "https://crm.shiroestate.ae/rest/25/btnspp9oeepo8jt6/crm.lead.add.json",
       {
@@ -95,7 +97,7 @@ export default function Banner() {
     );
 
     const result = await response.json();
-    console.log("Lead submitted:", result);
+   setDisableBtn(false);
 
     if (result.result) {
       toast.success(
@@ -111,6 +113,7 @@ export default function Banner() {
         message: "",
       });
     } else {
+      setDisableBtn(false);
       toast.error(
   "Something Went Wrong. Please Try Again.",
   {
@@ -119,6 +122,7 @@ export default function Banner() {
 );
     }
   } catch (error) {
+    setDisableBtn(false);
     console.error("Error submitting lead:", error);
        toast.error(
   "Something Went Wrong. Please Try Again.",
@@ -271,6 +275,7 @@ export default function Banner() {
       </div>
 
       <button
+      disabled={disableBtn}
         type="submit"
         className="btn w-100"
         style={{
