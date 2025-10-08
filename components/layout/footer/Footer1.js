@@ -13,7 +13,7 @@ export default function Footer1() {
                     <div className="container">
                         <div className="row">
                             {/*Start Single Footer Widget */}
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".1s">
+                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".1s">
                                 <div className="single-footer-widget footer-widget__about">
                                     <div className="logo-box">
                                         <Link href="/" passHref>
@@ -54,7 +54,7 @@ export default function Footer1() {
                             {/*End Single Footer Widget */}
 
                             {/*Start Single Footer Widget */}
-                            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="single-footer-widget footer-widget__links">
                                     <div className="title">
                                         <h2>Quick Links</h2>
@@ -71,7 +71,7 @@ export default function Footer1() {
                                 </div>
                             </div>
 
-                              <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
                                 <div className="single-footer-widget footer-widget__links footer_spacing">
                                     <div className="title">
                                         <h2>About Laguna</h2>
@@ -196,6 +196,20 @@ export default function Footer1() {
 
                                 </div>
                             </div>
+
+                            <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".2s">
+                                <div className="single-footer-widget footer-widget__links">
+                                    
+                                    <Image
+    src="/assets/qr_code/laguna_qr.png"
+    alt="laguna_qr_code"
+    height={180}
+    width={300} // adjust based on your logo’s aspect ratio
+    style={{ height: "180px", width: "auto" }}
+  />
+
+                                </div>
+                            </div>
                             {/*End Single Footer Widget */}
 
                             {/*Start Single Footer Widget */}
@@ -220,7 +234,7 @@ export default function Footer1() {
                             {/*End Single Footer Widget */}
 
                             {/*Start Single Footer Widget */}
-                            {/* <div className="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                            {/* <div className="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div className="single-footer-widget footer-widget__newsletter">
                                     <div className="title">
                                         <h2>Newsletter</h2>
