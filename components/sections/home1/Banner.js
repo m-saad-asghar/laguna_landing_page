@@ -7,6 +7,7 @@ import Link from "next/link"
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 import BitrixForm from '@/components/BitrixForm';
+import toast from 'react-hot-toast';
 
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
@@ -52,10 +53,82 @@ export default function Banner() {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Form submitted:', formData);
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const payload = {
+    fields: {
+      TITLE: `Laguna by One Development`,
+      NAME: formData.name,
+      PHONE: [
+        {
+          VALUE: formData.phone,
+          VALUE_TYPE: "WORK",
+        },
+      ],
+      EMAIL: [
+        {
+          VALUE: formData.email,
+          VALUE_TYPE: "WORK",
+        },
+      ],
+      SOURCE_DESCRIPTION: formData.message,
+      SOURCE_ID: "WEB",
+      ASSIGNED_BY_ID: 25,
+      UF_CRM_1754652292782: "Laguna Landing Page",
+    },
+    params: {
+      REGISTER_SONET_EVENT: "Y",
+    },
   };
+
+  try {
+    const response = await fetch(
+      "https://crm.shiroestate.ae/rest/25/btnspp9oeepo8jt6/crm.lead.add.json",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      }
+    );
+
+    const result = await response.json();
+    console.log("Lead submitted:", result);
+
+    if (result.result) {
+      toast.success(
+  "Thank you for reaching out. Your inquiry has been received and we will contact you soon.",
+  {
+    duration: 5000, 
+  }
+);
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        message: "",
+      });
+    } else {
+      toast.error(
+  "Something Went Wrong. Please Try Again.",
+  {
+    duration: 5000,
+  }
+);
+    }
+  } catch (error) {
+    console.error("Error submitting lead:", error);
+       toast.error(
+  "Something Went Wrong. Please Try Again.",
+  {
+    duration: 5000,
+  }
+);
+  }
+};
+
   return (
     <>
     
