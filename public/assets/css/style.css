@@ -7822,6 +7822,10 @@ Project Four Css
 }
 
 @media only screen and (max-width: 767px) {
+    .qr_code_styling {
+        margin-top: 60px;
+    }
+
    .about_spacing {
     padding: 75px 0 0;
 }

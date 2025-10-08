@@ -206,6 +206,7 @@ export default function Footer1() {
     height={180}
     width={300} // adjust based on your logo’s aspect ratio
     style={{ height: "180px", width: "auto" }}
+    className="qr_code_styling"
   />
 
                                 </div>
